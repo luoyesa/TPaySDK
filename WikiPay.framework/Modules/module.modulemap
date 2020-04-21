@@ -1,0 +1,6 @@
+framework module WikiPay {
+  umbrella header "WikiPay.h"
+
+  export *
+  module * { export * }
+}
