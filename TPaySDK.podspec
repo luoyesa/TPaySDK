@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TPaySDK"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "pay sdk"
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,8 @@ Pod::Spec.new do |spec|
 
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
-    spec.source_files = "WikiPay.framework/Headers/*.{h}"
+  # spec.source_files = "WikiPay.framework/Headers/*.{h}"
+  spec.vendored_frameworks = "WikiPay.framework"
 
   # spec.public_header_files = "Classes/**/*.h"
 
