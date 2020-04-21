@@ -93,6 +93,7 @@ Pod::Spec.new do |spec|
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
   # spec.source_files = "WikiPay.framework/Headers/*.{h}"
+  
   spec.vendored_frameworks = "WikiPay.framework"
 
   # spec.public_header_files = "Classes/**/*.h"
